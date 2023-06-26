@@ -1,0 +1,39 @@
+/* Write your code here. */
+.emoji-game-bg-container {
+  background-image: linear-gradient(to right, #6a59ff, #9796f0, #fbc7d4);
+  height: 100vh;
+  background-size: cover;
+  font-family: 'Roboto';
+}
+.all-emojis-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 40px;
+  padding-left: 500px;
+  padding-right: 500px;
+}
+.each-emoji-card {
+  background-color: #ffffff33;
+  padding: 60px;
+  border: 1px solid #ffffff;
+  outline: none;
+  cursor: pointer;
+  border-radius: 12px;
+  margin: 10px;
+}
+.emoji-style {
+  width: 80px;
+}
+ul {
+  list-style-type: none;
+}
+.win-or-lose-card-container {
+  margin-top: 80px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
